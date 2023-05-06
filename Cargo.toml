@@ -12,8 +12,10 @@ default = ["console_error_panic_hook"]
 
 [dependencies]
 wasm-bindgen = "0.2.63"
-chacha20poly1305 = "0.10.1"
-getrandom = { version = "0.2", features = ["js"] }
+chacha20poly1305 = {version= "0.10.1", features=["std"]}
+getrandom = { version = "0.2", features = ["js", "std"] }
+js-sys = "0.3.35"
+thiserror = "1.0.24"
 
 # The `console_error_panic_hook` crate provides better debugging of panics by
 # logging them with `console.error`. This is great for development, but requires
