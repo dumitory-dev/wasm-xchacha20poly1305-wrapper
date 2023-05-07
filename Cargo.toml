@@ -1,5 +1,5 @@
 [package]
-name = "xchacha20-poly1305-wasm"
+name = "wasm-chacha20poly1305-wrapper"
 version = "0.1.0"
 authors = ["dev"]
 edition = "2018"
