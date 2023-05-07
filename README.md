@@ -22,12 +22,12 @@ Ensure the following tools are installed on your system:
 
 1. Clone the repository:
 ```
-git clone https://github.com/dumitory-dev/wasm-chacha20poly1305-wrapper.git
+git clone https://github.com/dumitory-dev/wasm-xchacha20poly1305-wrapper.git
 ```
 
 2. Build the WebAssembly package:
 ```
-cd wasm-chacha20poly1305-wrapper
+cd wasm-xchacha20poly1305-wrapper
 wasm-pack build --target web
 ```
 
