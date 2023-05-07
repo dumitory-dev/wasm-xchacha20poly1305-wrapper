@@ -1,8 +1,8 @@
 [package]
 name = "wasm-xchacha20poly1305-wrapper"
 version = "0.1.0"
-authors = ["dev"]
-edition = "2018"
+authors = ["dumitory-dev"]
+edition = "2023"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
@@ -32,7 +32,6 @@ wee_alloc = { version = "0.4.5", optional = true }
 [dev-dependencies]
 wasm-bindgen-test = "0.3.13"
 criterion = "0.4.0"
-
 
 [[bench]]
 name = "crypto_benchmark"
