@@ -3,8 +3,8 @@
 // For a copy, see <https://opensource.org/licenses/MIT>.
 
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use xchacha20_poly1305_wasm::constants::KEY_SIZE;
-use xchacha20_poly1305_wasm::crypt_utils::{perform_decryption, perform_encryption};
+use wasm_xchacha20poly1305_wrapper::constants::KEY_SIZE;
+use wasm_xchacha20poly1305_wrapper::crypt_utils::{perform_decryption, perform_encryption};
 
 fn encryption_benchmark(c: &mut Criterion) {
     let plaintext = b"Hello, world!";
